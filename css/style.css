@@ -1,0 +1,165 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    background-image: url(../img/sfondo.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    /*height: 60vh;*/
+    width:95%;
+    margin:auto;
+    background-color: blue;
+    margin-top:13px;
+    text-align: center;
+}
+
+
+.menù{
+    /*width:95%;
+    margin:auto;
+    background-color: blue;
+    padding-bottom: 12,5px;
+    text-align: center; */
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+
+header div img{
+    width:75%;
+    padding-top: 25px;
+}
+
+h1{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+header div p{
+    color:white;
+    /*font-weight: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;*/
+}
+
+
+/* MAIN */
+
+main{
+    width: 95%;
+    margin:auto;
+    background-color: skyblue;
+    margin-top: 13px;
+}
+
+main div{
+    width:95%;
+    margin:auto;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+
+main div>p, ul, ol, caption, table{    
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: normal;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+
+main h2+p{
+    color: grey;
+}
+
+main div span{
+    color:purple;
+}
+
+.elementi{
+    background-color: rgb(131, 114, 114);
+    color:black;
+    border-radius: 8px;
+    border: 2px rgb(58, 50, 50) solid;
+}
+
+ul, ol{
+    padding-left: 40px;
+}
+
+/* TABELLE */
+
+caption{
+    font-weight:600;
+    font-style: italic;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: center;
+    
+}
+
+th{
+    background-color: blue;
+}
+
+tr:nth-child(even){
+    background-color: rgb(167, 159, 159);
+    border-top: 1px rgb(58, 50, 50) solid;
+    border-bottom: 1px rgb(58, 50, 50) solid;
+}
+
+tr:nth-last-child(-n+1){
+    border-bottom: 1px rgb(0, 131, 253) solid;
+}
+
+tr{
+    line-height: 3;
+}
+
+iframe{
+    width: 400px;
+}
+
+.newsletter{
+    background-color: rgb(167, 159, 159);
+    width:100%;
+    text-align: center;
+}
+
+.newsletter h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.newsletter form input{
+    border:none;
+    border-bottom-style: dotted;
+}
+
+button{
+    color:white;
+    background-color: blue;
+    border: none;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
